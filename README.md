@@ -1,8 +1,8 @@
-# Web Development Project 2 - _Learn some Chinese words!_
+# Web Development Project 3 - Learn some chinese words!
 
-Submitted by: **Sami Chen**
+Submitted by: Sami Chen
 
-This web app: **Helps users study a few cards in randomized order that are about the pinyin and translation of Chinese traditional characters**
+This web app: **Helps users learn some Chinese by testing their knowledge of Chinese characters (traditional) and their translation in English.**
 
 Time spent: **48** hours spent in total
 
@@ -10,17 +10,17 @@ Time spent: **48** hours spent in total
 
 The following **required** functionality is completed:
 
-- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [x] **A list of card pairs is created**
-- [x] **Clicking on the card shows the corresponding component of the information pair**
-- [x] **Clicking the next button displays a random new card**
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-  - [ ] _visual style implemented_
+- [x] A shuffle button is used to randomize the order of the cards
+- [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [ ] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
@@ -28,9 +28,9 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features: https://imgur.com/a/qwunOln
+Here's a walkthrough of implemented user stories:
 
-<img src=https://i.imgur.com/a/qwunOln.gif title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/aVMKImy' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
@@ -43,7 +43,7 @@ GIF created with Screen2Gif
 
 ## Notes
 
-The challenge was figuring out how to use useState and what was changing in the web app, and how to make a list of card pairs.
+There were a lot of challenges with this project, for example figuring out the different usestates to track the shuffling, the user input, and handling the correctness of the input.
 
 ## License
 
@@ -54,6 +54,12 @@ The challenge was figuring out how to use useState and what was changing in the 
     You may obtain a copy of the License at
 
         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
