@@ -57,5 +57,21 @@
   font-size: larger;
 }
 .nextbutton{
-  background-color: greenyellow;
+  background-color: rgb(117, 204, 105);
+}
+.prevbutton{
+  background-color: rgb(211, 247, 158);
+}
+.submitbutton{
+  background-color: rgb(117, 204, 105);
+}
+.correct {
+  border: 4px solid rgb(66, 214, 66);
+}
+
+.incorrect {
+  border: 4px solid rgb(255, 72, 0);
+}
+.shufflebutton{
+  background-color: aquamarine;
 }
